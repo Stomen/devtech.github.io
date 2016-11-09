@@ -1,0 +1,88 @@
+@media screen and (max-width: 1150px) {
+    .grownComp .pic1{
+        font-size: 2em;
+           }
+    .grownComp .pic5{
+        font-size: 2em;
+        width: 130px;
+           }
+}
+@media screen and (max-width: 1000px){
+    header nav li{
+        display: none;
+    }
+    header nav li:last-child{
+        display: inline-block;
+    }
+}
+@media screen and (max-width: 768px){
+    .mainPhoto .contentBlock{
+        width: 100%;
+    }
+    .contact .contactField {
+        width: 100%;
+    }
+    .aboutCompany .nameCompBlock span {
+        color: white;
+        font-size: 6em;
+    }
+    header nav li {
+         margin-right: 0;
+    }
+    .mainPhoto .contentBlock span:nth-child(2) {
+
+        padding-right:10px;
+
+    }
+}
+@media screen and (max-width: 425px){
+    .wraps .portfBlock{
+        padding-right: 0;
+    }
+    .contact .contactField .inputBlock{
+        width: 100%;
+        float: none;
+    }
+    .contactField input[type="submit"] {
+        width: 40%;
+    }
+    .wrapper .works:before{
+       display: none;
+    }
+    .wrapper .titleBlock span:after{
+        display: none;
+    }
+    .wrapper .titleBlock span:before{
+        display: none;
+    }
+    .wrapper .works:before{
+        display: none;
+    }
+    .wrapper .portfolio:before{
+        display: none;
+    }
+    .wrapper .contact:before{
+        display: none;
+    }
+    .wrapper .aboutCompany:before{
+        display: none;
+    }
+    .works .worksTextBlock span{
+        padding-left: 20px;
+    }
+    .works .wraps .wrap-works{
+        padding-right: 15px;
+    }
+    .works .wraps .wrap-works:last-child{
+        display: none;
+    }
+}
+@media screen and (max-width: 1024px){
+    .works .wraps:before{
+         display: none;
+
+     }
+}
+
+
+
